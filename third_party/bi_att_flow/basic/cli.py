@@ -6,7 +6,8 @@ import os
 
 import tensorflow as tf
 
-flags = tf.app.flags
+#flags = tf.app.flags
+flags = tf.compat.v1.flags
 
 # Names and directories
 flags.DEFINE_string("model_name", "basic", "Model name [basic]")
